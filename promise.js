@@ -1,6 +1,6 @@
 const res = (value) => value
 const rej = (value) => value
-const run = (fn) => fn(res, rej)
+
 const PromiseTest = (fn) => {
   let res = {}
   fn((value) => {
